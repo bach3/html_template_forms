@@ -1,2 +1,4 @@
-# html_template_forms
-The HTML templates is made by Bootstrap 
+# Bootstrap HTML templates
+
+This repository is a collection of simple login pages and forms.
+
