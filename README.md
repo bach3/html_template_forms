@@ -13,3 +13,7 @@ This repository is a collection of simple login pages and forms.
 3. Login page without header and footer
 
 ![login-page-without-header-footer](https://github.com/bach3/html_template_forms/blob/master/preview/signin-no-header-footer.png)
+
+4. Mini.css - Simple Form
+
+![mini.css - simple form](https://github.com/bach3/html_template_forms/blob/master/preview/minicss-sample-form.png)
