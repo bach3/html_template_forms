@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Sample Mini-Css</title>
+  
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/mini-default.min.css">
+</head>
+<body>
+
+  <!-- Start your project here-->  
+<header>
+  <header>
+      <a href="#" class="logo">Logo</a>
+      <a href="#" class="button">Home</a>
+      <button>Download</button>
+      </header>
+  </header>
+　<div class="container" >
+    <div class="row" style="justify-content: center;">
+        <h3>Heading 3 <small>Subheading</small></h3>
+    </div>
+    <div class="row" style="justify-content: center;">
+        <!-- normal card -->
+        <div class="card">
+            <div class="section">
+                <h3 class="doc">Card 1</h3>
+                <p class="doc">This is a basic card with some sample content.</p>
+            </div>
+        </div>
+        <!-- warning card -->
+        <div class="card warning">
+            <div class="section">
+                <h3 class="doc">Warning Card</h3>
+                <p class="doc">Warning cards are used to display important information to users.</p>
+            </div>
+        </div>
+
+        <!-- using section to organize content-->
+        <div class="card">
+            <h3 class="doc section">Title section</h3>
+            <p class="doc section">This is a section with some textual content.</p>
+            <p class="doc section">card footer</p>
+        </div>
+    </div>
+
+    <div class="row" style="justify-content: center;">
+        <div class="col-sm-12 col-md-6">
+        <!-- grid card -->
+        <div class="card fluid" style="margin: 0.5rem 0.25rem" >
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="card fluid">
+                        <h5 class="doc section">Inner Card Header</h5>
+                        <p class="doc section">This is a card body</p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="card fluid error">
+                        <h5 class="doc section">Inner Card Header</h5>
+                        <p class="doc section">This is a card body</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+    <!-- spoiler & accordions -->
+    <div class="collapse">
+        <input type="checkbox" id="collapse-section1" checked aria-hidden="true">
+        <label for="collapse-section1" aria-hidden="true">Collapse section 1</label>
+        <div>
+          <p>This is the first section of the collapse</p>
+          <div class="container">
+            <div class="row" style="justify-content: center;">
+                <div class="card">
+                    <h3 class="doc section"><img src="https://minicss.org/index-splash.jpg" alt=minicss-indexsplash></h3>
+                    <p class="doc section">This is a section with some textual content.</p>
+                </div>
+
+                <div class="card">
+                    <h3 class="doc section"><img src="https://minicss.org/tailored.svg" alt=minicss-tailored></h3>
+                    <p class="doc section">This is a section with some textual content.</p>
+                </div>
+
+                <div class="card">
+                    <h3 class="doc section"><img src="https://minicss.org/responsive.svg" alt=minicss-responsive></h3>
+                    <p class="doc section">This is a section with some textual content.</p>
+                </div>
+            </div>
+
+        </div>
+        </div>
+
+        <input type="checkbox" id="collapse-section2" aria-hidden="true">
+        <label for="collapse-section2" aria-hidden="true">Collapse section 2</label>
+        <div>
+          <p>This is the second section of the collapse</p>
+        </div>
+    </div>
+
+
+</div>
+<footer">
+    <div class="container">
+        <div class="row" style="justify-content: center;">
+            <p style="text-decoration: none; color:#222f3a;"><a href="https://minicss.org/" target="_blank">Mini CSS - a lightweight CSS framework</a></p>
+        </div>
+        <div class="row" style="justify-content: center;">
+            <p style="text-decoration: none; color:#222f3a;"><a href="https://github.com/bach3" target="_blank">bach3 - JAVA with code</a></p>
+        </div>
+    </div>
+  
+</footer>
+<!-- Your custom scripts (optional) -->
+<script type="text/javascript"></script>
+
+</body>
+</html>
