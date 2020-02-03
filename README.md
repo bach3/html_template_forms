@@ -17,3 +17,7 @@ This repository is a collection of simple login pages and forms.
 4. Mini.css - Simple Form
 
 ![mini.css - simple form](https://github.com/bach3/html_template_forms/blob/master/preview/minicss-sample-form.png)
+
+5. Mini.css - Simple Page with Header Cards Footer
+
+![mini.css - simple page-header-cards-footer](https://github.com/bach3/html_template_forms/blob/master/preview/minicss-sample-page-header-cards-footer.png)
